@@ -1,0 +1,9 @@
+{
+  "cache_hits": 4,
+  "cache_misses": 22,
+  "hit_ratio": 15.38,
+  "total_time_saved": 10.0,
+  "avg_time_saved": 2.5,
+  "requests_served": 26,
+  "uptime_seconds": 366.75
+}
