@@ -155,6 +155,16 @@ DEBUG=True
 MODEL_PATH=pickle/model.pkl
 ```
 
+## Browser Extension Workflow
+
+When users search on Google:
+1. The extension captures all search results URLs
+2. Sends them to the backend API for phishing detection
+3. Returns safety status back to the browser
+4. Marks unsafe results with warning indicators
+
+The extension uses the `/api/check_url` endpoint to get safety information about URLs. It caches results locally to improve performance and reduce API calls.
+
 ## Usage
 
 1. Access the web interface at `http://localhost:5001`
